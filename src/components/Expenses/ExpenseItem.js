@@ -9,9 +9,9 @@ const ExpenseItem = (props) => {
     <Card className='expense-item'>
       
       <div className='expense-item__description'>
-        <h2>{props.name}</h2>
+        <h2 className='h2'>{props.name}</h2>
         <div className='expense-item__price'>${props.amount}</div>
-        <div className='expense-item__price'>${props.size}</div>
+        <div className='expense-item__price'>{props.size}</div>
       </div>
     </Card>
   );

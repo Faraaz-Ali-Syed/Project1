@@ -7,11 +7,11 @@ const App = () => {
   const expenses = [
     {
       id: "e1",
-      title: "NIKE sports",
-      name: 94.12,
+      name: "NIKE sports",
+      amount: 94.12,
       size: "S",
     },
-    { id: "e2", title: "New TV", amount: 799.49, size: "XL" },
+    { id: "e2", name: "ADIDAS PRO", amount: 799.49, size: "XL" },
     {
       id: "e3",
       name: "B1 FORMALS",
@@ -22,7 +22,7 @@ const App = () => {
       id: "e4",
       name: "TIGER PAW SHOE",
       amount: 450,
-      size: "L",
+      size: "L"
     },
   ];
 
